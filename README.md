@@ -10,10 +10,14 @@ This project is a starting point for a Flutter application.
 - working material design layout
 - working with scaffold
 - working with persistentFooterButtons
-
+- working with containers size, shape, position and transformation
+- working with gradient
 
 ## Below is the app layout of this flutter hello world app
 ![](ui/app.png)
+
+### working with container
+![](ui/container.png)
 
 A few resources to get you started if this is your first Flutter project:
 
