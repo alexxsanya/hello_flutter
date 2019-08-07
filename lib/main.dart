@@ -28,11 +28,11 @@ class MyApp extends StatelessWidget {
             onPressed: () {},
           ),
           IconButton(
-            icon: Icon(Icons.mode_edit),
+            icon: Icon(Icons.add_alarm),
             onPressed: () {},
           ),
           IconButton(
-            icon: Icon(Icons.delete_outline),
+            icon: Icon(Icons.add_location),
             onPressed: () {},
           )
         ],
