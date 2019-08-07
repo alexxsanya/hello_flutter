@@ -24,8 +24,23 @@ class MyApp extends StatelessWidget {
             style: TextStyle(fontSize: 24),
           ),
         ),
-        body: Center(
-          child: Text('Hello World Flutter Layout'),
+        body: Container(
+          margin: EdgeInsets.all(50.0),
+          width: 300.0,
+          height: 300.0,
+          decoration: BoxDecoration(
+            color: Colors.orange,
+            shape: BoxShape.rectangle,
+            gradient: LinearGradient(
+              colors: [Colors.orange[50], Colors.orange[500]]
+            ),
+            borderRadius: BorderRadius.all(
+              Radius.circular(30.0),
+            ),
+            image: DecorationImage(
+              image: NetworkImage('http://bit.ly/flutter_tiger'),
+            )
+          ),
         ),
         floatingActionButton: FloatingActionButton(
           child: Icon(Icons.lightbulb_outline),
